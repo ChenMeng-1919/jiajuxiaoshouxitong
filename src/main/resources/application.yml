@@ -1,0 +1,21 @@
+server:
+  servlet:
+    context-path: /shengxiandianshang
+  port: 8080
+  tomcat:
+    uri-encoding: UTF-8
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    url: jdbc:mysql://127.0.0.1:3306/shengxiandianshang?characterEncoding=utf-8
+    password: root
+  mvc:
+    view:
+      prefix: /
+      suffix: .jsp
+    static-path-pattern: /**
+
+mybatis:
+  mapper-locations: classpath:com/mapper/*.xml
