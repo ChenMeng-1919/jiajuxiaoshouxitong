@@ -1,6 +1,6 @@
 server:
   servlet:
-    context-path: /shengxiandianshang
+    context-path: /jiajuxiaoshouxitong
   port: 8080
   tomcat:
     uri-encoding: UTF-8
@@ -9,8 +9,8 @@ spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
-    url: jdbc:mysql://127.0.0.1:3306/shengxiandianshang?characterEncoding=utf-8
-    password: root
+    url: jdbc:mysql://localhost:3306/xiaoshoxitong?useSSL=false&useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8
+    password: 123654
   mvc:
     view:
       prefix: /
